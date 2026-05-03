@@ -1,57 +1,139 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Mamadu Bah</title>
-    <style>
-        body {
-            font-family: Arial;
-            margin: 40px;
-            background-color: #f4f4f4;
-        }
-        h1 {
-            color: #0a2a66;
-        }
-        section {
-            background: white;
-            padding: 20px;
-            margin-bottom: 20px;
-            border-radius: 10px;
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mamadu Bah | Innovator</title>
+
+<style>
+    body {
+        margin: 0;
+        font-family: 'Segoe UI', sans-serif;
+        background: #0f172a;
+        color: white;
+    }
+
+    header {
+        text-align: center;
+        padding: 60px 20px;
+        background: linear-gradient(135deg, #0a2a66, #1e3a8a);
+    }
+
+    header img {
+        width: 140px;
+        height: 140px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 4px solid white;
+    }
+
+    h1 {
+        margin: 15px 0 5px;
+    }
+
+    section {
+        padding: 50px 20px;
+        max-width: 1000px;
+        margin: auto;
+    }
+
+    .card {
+        background: #1e293b;
+        padding: 20px;
+        border-radius: 12px;
+        margin-bottom: 20px;
+    }
+
+    .projects {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 20px;
+    }
+
+    .project img {
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    footer {
+        text-align: center;
+        padding: 30px;
+        background: #020617;
+        font-size: 14px;
+    }
+
+    a {
+        color: #38bdf8;
+        text-decoration: none;
+    }
+</style>
 </head>
+
 <body>
 
+<header>
+    <img src="profile.jpg" alt="Mamadu Bah">
     <h1>Mamadu Bah</h1>
-    <p><strong>Founder | Innovator | Sustainable Energy Leader</strong></p>
+    <p>Founder | Innovator | Sustainable Energy Leader</p>
+</header>
 
-    <section>
+<section>
+    <div class="card">
         <h2>About Me</h2>
         <p>
-            I am Mamadu Bah, founder of BNM Sustainable Energy Limited, focused on building
-            innovative and sustainable energy solutions in Sierra Leone and across Africa.
+            I am Mamadu Bah, founder of BNM Sustainable Energy Limited.
+            I build innovative solutions focused on clean energy, sustainability,
+            and technological advancement across Africa.
         </p>
-    </section>
+    </div>
+</section>
 
-    <section>
-        <h2>Projects</h2>
-        <ul>
-            <li>Carbon-Free Generator</li>
-            <li>Drone Charging System</li>
-            <li>ASPCS - Smart Solar Cleansing System</li>
-        </ul>
-    </section>
+<section>
+    <h2>Projects</h2>
+    <div class="projects">
 
-    <section>
+        <div class="card project">
+            <img src="project1.jpg">
+            <h3>Carbon-Free Generator</h3>
+            <p>A clean energy innovation designed to eliminate fuel dependency.</p>
+        </div>
+
+        <div class="card project">
+            <img src="project2.jpg">
+            <h3>Drone Charging System</h3>
+            <p>Self-powered drone system using dynamo-based energy generation.</p>
+        </div>
+
+        <div class="card project">
+            <img src="project3.jpg">
+            <h3>ASPCS</h3>
+            <p>Smart solar cleansing system improving panel efficiency.</p>
+        </div>
+
+    </div>
+</section>
+
+<section>
+    <div class="card">
         <h2>Vision</h2>
         <p>
-            My mission is to drive Africa’s transition to clean, reliable, and innovative energy systems.
+            Driving Africa’s transition to reliable, clean, and scalable energy solutions.
         </p>
-    </section>
+    </div>
+</section>
 
-    <section>
+<section>
+    <div class="card">
         <h2>Contact</h2>
         <p>Email: nulador1998@gmail.com</p>
-    </section>
+        <p>Phone: 076625928</p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/mamadu-bah-15777a215">View Profile</a></p>
+    </div>
+</section>
+
+<footer>
+    © 2026 Mamadu Bah | All Rights Reserved
+</footer>
 
 </body>
 </html>
